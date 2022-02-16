@@ -1,0 +1,28 @@
+{
+  "name": "rabbitmq-nodejs-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psyycker-medium/rabbitmq-nodejs-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/psyycker-medium/rabbitmq-nodejs-typescript/issues"
+  },
+  "homepage": "https://github.com/psyycker-medium/rabbitmq-nodejs-typescript#readme",
+  "devDependencies": {
+    "@types/amqplib": "^0.8.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
